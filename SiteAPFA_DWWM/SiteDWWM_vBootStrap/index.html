@@ -1,37 +1,96 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formation Développeur Web Web mobile AFPA</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" type="image/ico" href="./Images/favicon.ico" />
-  </head>
-  <body>
-    <header>
-      <img src="Images/logo.jpeg" alt="Logo de la société AFPA" />
-      <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="formationDWWM.html">La formation</a></li>
-          <li><a href="temoignages.html">Ils témoignent</a></li>
-          <li><a href="references.html">Nos références</a></li>
-          <li><a href="contact.html">Nous contacter</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="accueil">
-      <div class="container">
-        <h1 class="titre">Devenez développeur web</h1>
-        <h2 class="titre2">
-          Une formation gratuite et rémunérée pour les demandeurs d'emploi
-        </h2>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formation Développeur Web Web mobile AFPA</title>
 
-        <a href="formationDWWM.html">Je découvre la formation</a>
-      </div>
-      
-    </main>
-  </body>
+        <link
+            rel="shortcut icon"
+            type="image/ico"
+            href="./Images/favicon.ico"
+        />
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/main.min.css" />
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"
+                        ><img
+                            src="./img/Images/logo.jpeg"
+                            alt="Logo de la société AFPA"
+                    /></a>
+                    <button
+                        class="navbar-toggler
+                        bg-primary"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation" 
+                    >
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse bg-primary"
+                        id="navbarNav"
+                    >
+                        <ul class="navbar-nav">
+                            <li class="nav-item bg-secondary border-white border-start  border-2 ">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="index.html"
+                                    >Accueil</a
+                                >
+                            </li>
+                            <li class="nav-item bg-secondary border-white border-start border-2">
+                                <a class="nav-link" href="formationDWWM.html"
+                                    >La formation</a
+                                >
+                            </li>
+                            <li class="nav-item bg-secondary border-white border-start border-2">
+                                <a class="nav-link" href="temoignages.html"
+                                    >Ils témoignent</a
+                                >
+                            </li>
+
+                            <li class="nav-item bg-secondary border-white border-start border-2">
+                                <a class="nav-link" href="references.html"
+                                    >Nos références</a
+                                >
+                            </li>
+
+                            <li class="nav-item bg-secondary border-white border-start border-2">
+                                <a class="nav-link" href="contact.html"
+                                    >Nous contacter</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="accueil p-3">
+            <div class="container m-4 p-3 col-12  col-md-8 offset-2 d-flex justify-content-center align-items-center flex-column  bg-gray rounded-5 mx-auto ">
+                <h1 class="titre bg-primary rounded-pill  col-12  col-md-8  p-2 text-center text-light m-5 text-uppercase ">Devenez développeur web</h1>
+                <h2 class="titre2 fs-4 col-12  col-md-6  text-center bg-primary rounded-4 text-light  p-2">
+                    Une formation gratuite et rémunérée pour les demandeurs
+                    d'emploi
+                </h2>
+
+                <a href="formationDWWM.html" class="bg-danger text-light rounded-4 p-2 m-3 fs-4 link-underline link-underline-opacity-0 text-center">Je découvre la formation</a>
+            </div>
+        </main>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
