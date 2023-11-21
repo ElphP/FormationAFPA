@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+ 
+
+   
+
+    <script>
+      "use strict"
+   let prenoms = ["Samuel", "Karim", "Nadia", "Catherine", "Kevin", "Laetitia", "Djamina", "Vincent", "Sacha"];
+   console.log(prenoms.length);
+   prenoms.push("Pierre");
+   console.log(prenoms.length);
+   prenoms.shift();
+   console.log(prenoms.length);
+
+  //  prenoms.splice(3,1,"Kévin");  6A
+
+  let indexKevin =prenoms.findIndex((prenom)=> prenom ==="Kevin");
+  prenoms.splice(indexKevin,1, "Kévin");
+
+  // meilleure soltution: prenoms[prenoms.indexOf("Kevin")]="Kévin";
+
+   console.log(prenoms);
+  prenoms.splice(prenoms.findIndex((prenom)=> prenom ==="Vincent"),1);
+  console.log(prenoms);
+  prenoms.forEach(prenom => {
+    // console.log(prenom, prenoms.indexOf(prenom));
+  document.write(`${prenom}, ${prenoms.indexOf(prenom)} <br>`);
+  });
+   
+        </script>
+        
+</body>
+</html>
+

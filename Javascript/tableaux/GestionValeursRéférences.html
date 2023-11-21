@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestion valeurs et références</title>
+  </head>
+  <body>
+    <h1>Gérer par valeur ou référence</h1>
+  </body>
+  <script>
+    "use strict";
+    function modifierVariableValeur(al, bl) {
+      al++;
+      bl++;
+    }
+    let a = 5;
+    let b = a;
+    a = 8;
+    modifierVariableValeur(a, b);
+    prompt(
+      "Quelles sont les valeurs des variables a et b \n Réponse A : a = 8, b = 5 \n Réponse B : a = 9, b = 6 \n Réponse C : a = 8, b = 8"
+    );
+    document.write(`<p>Réponse A : ${a === 8} ${b === 5}</p>`);
+    document.write(`<p>Réponse B : ${a === 9} ${b === 6}</p>`);
+    document.write(`<p>Réponse C : ${a === 8} ${b === 8}</p>`);
+  </script>
+  <script>
+    "use strict";
+    function modifierVariableTabValeur(tal, tbl) {
+      tal[0]++;
+      tbl[0]++;
+    }
+    let ta = [1,2,5];
+    let tb = ta;
+    tb[0]=6;
+    modifierVariableTabValeur(ta, tb);
+    prompt(
+      "Quelles sont les valeurs des variables ta[0] et tb[0] \n Réponse A :  8, 8 \n Réponse B : 2, 7 \n Réponse C : 1, 6"
+    );
+    document.write(`<p>Réponse A : ${ta[0] === 8} ${tb[0] === 8}</p>`);
+    document.write(`<p>Réponse B : ${ta[0] === 2} ${tb[0] === 7}</p>`);
+    document.write(`<p>Réponse C : ${ta[0] === 1} ${tb[0] === 6}</p>`);
+  </script>
+  <script>
+    "use strict";
+    function modifier(tal) {
+      tal = [5,2,4];
+      tal[0]=6;
+    }
+    let ta2 = [1,2,5];
+    modifier(ta2);
+    document.write(`<p>Valeur de ta2[0] =  ${ta2[0]}</p>`);
+  </script>
+</html>
