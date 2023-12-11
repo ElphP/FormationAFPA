@@ -1,335 +1,964 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PorteFolio Bootstrap</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PorteFolio Bootstrap</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-md fixed-top bg-light navbar-light">
-        <div class="container">
-            <a class="navbar-brand text-uppercase fw-bold" href="/index.html">
-                <span class="bg-primary bg-gradient p-1 rounded-3 text-light">John</span> Doe
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#johndoe">Qui suis-je ?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#expertise">Expertises</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-      </div>
-    </nav>
-    </header>
-    <main>
-      <section class="py-5" >
-        <div class="container" id="johndoe">
-          <div class="row gy-4 gy-sm-0 align-items-center">
-            <div class="col-sm">
-              <h1 class="fw-bold">
-                Je suis John Doe Développeur et Designer Web
-              </h1>
-              <h2 class="fw-light">Bienvenue dans mon univers créatif</h2>
-              <button class="btn btn-primary mt-5">Mon expertise Web</button>
-            </div>
-            <div class="col-sm">
-              <img
-                src="./img/portrait.jpg"
-                alt="JohnDoePortrait"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <header>
+            <nav
+                class="navbar navbar-expand-md fixed-top bg-light navbar-light"
+            >
+                <div class="container">
+                    <a
+                        class="navbar-brand text-uppercase fw-bold"
+                        href="/index.html"
+                    >
+                        <span
+                            class="bg-primary bg-gradient p-1 rounded-3 text-light"
+                            >John</span
+                        >
+                        Doe
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse justify-content-end"
+                        id="navbarNav"
+                    >
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#johndoe"
+                                    >Qui suis-je ?</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#expertise"
+                                    >Expertises</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio"
+                                    >Portfolio</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="py-5">
+                <div class="container" id="johndoe">
+                    <div class="row gy-4 gy-sm-0 align-items-center">
+                        <div class="col-sm">
+                            <h1 class="fw-bold">
+                                Je suis John Doe Développeur et Designer Web
+                            </h1>
+                            <h2 class="fw-light">
+                                Bienvenue dans mon univers créatif
+                            </h2>
+                            <button class="btn btn-primary mt-5">
+                                Mon expertise Web
+                            </button>
+                        </div>
+                        <div class="col-sm">
+                            <img
+                                src="./img/portrait.jpg"
+                                alt="JohnDoePortrait"
+                                class="img-fluid"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-      <section class="py-5 bg-light">
-        <div class="container g-4" id="expertise">
-          <div class="row mb-4">
-            <div class="col">
-              <h2 class="fw-bold">Mon expertise</h2>
-              <h3 class="fw-light">Développement web et design</h3>
-            </div>
-          </div>
-          <div class="row gy-4 mb-4 align-items-center">
-            <!-- skills HTML5-->
-            <div class="col-sm-7">
-              <div
-                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3"
-              >
-                <img src="./img/html5.svg" alt="iconeHTML5" />
-                <span class="px-3 fw-bold">HTML5</span>
-                <div class="progress w-100 mt-1">
-                  <div class="progress-bar" style="width: 75%"></div>
+            <section class="py-5 bg-light">
+                <div class="container g-4" id="expertise">
+                    <div class="row mb-4">
+                        <div class="col">
+                            <h2 class="fw-bold">Mon expertise</h2>
+                            <h3 class="fw-light">
+                                Développement web et design
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row gy-4 mb-4 align-items-center">
+                        <!-- skills HTML5-->
+                        <div class="col-sm-7">
+                            <div
+                                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3" data-bs-toggle="tooltip"  title="HTML5"
+                            >
+                                <img src="./img/html5.svg" alt="iconeHTML5" />
+                                <span class="px-3 fw-bold">HTML5</span>
+                                <div class="progress w-100 mt-1">
+                                    <div
+                                        class="progress-bar"
+                                        style="width: 75%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <!-- skills css3 -->
+                            <div
+                                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3 " data-bs-toggle="tooltip"  title="CSS3"
+                            >
+                                <img src="./img/css3-alt.svg" alt="IconeCSS3" />
+                                <span class="px-3 fw-bold">CSS3</span>
+                                <div class="progress w-100 mt-1">
+                                    <div
+                                        class="progress-bar"
+                                        style="width: 100%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3" data-bs-toggle="tooltip"  title="JS"
+                            >
+                                <img
+                                    src="votreDossier/img/js.svg"
+                                    alt="IconeJS"
+                                />
+                                <span class="px-3 fw-bold">JavaScript</span>
+                                <div class="progress w-100 mt-1">
+                                    <div
+                                        class="progress-bar"
+                                        style="width: 75%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3" data-bs-toggle="tooltip"  title="PHP"
+                            >
+                                <img src="./img/php.svg" alt="IconePHP" />
+                                <span class="px-3 fw-bold">PHP</span>
+                                <div class="progress w-100 mt-1">
+                                    <div
+                                        class="progress-bar w-75"
+                                        
+                                    ></div>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3" data-bs-toggle="tooltip"  title="SASS"
+                            >
+                                <img src="./img/sass.svg" alt="IconeSASS" />
+                                <span class="px-3 fw-bold">SASS</span>
+                                <div class="progress w-100 mt-1">
+                                    <div
+                                        class="progress-bar w-50"
+                                        
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 offset-sm-1 gx-0">
+                            <img
+                                src="./img/code.jpg"
+                                alt="ImageCode"
+                                class="img-fluid"
+                            />
+                        </div>
+                    </div>
+                    <div class="row gy-4 align-items-center">
+                        <div class="col-sm-4 gx-0">
+                            <img
+                                src="./img/design.jpg"
+                                alt="DesignNumerique"
+                                class="img-fluid"
+                            />
+                        </div>
+                        <!-- skills 2ème partie  -->
+                        <div class="col-sm-7 offset-sm-1">
+                            <div
+                                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3" data-bs-toggle="tooltip"  title="Figma"
+                            >
+                                <img src="./img/figma.svg" alt="iconeFigma" />
+                                <span class="px-3 fw-bold">Figma</span>
+                                <div class="progress w-100 mt-1">
+                                    <div
+                                        class="progress-bar"
+                                        style="width: 75%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3" data-bs-toggle="tooltip"  title="Adobe"
+                            >
+                                <img
+                                    src="./img/photo-film-solid.svg"
+                                    alt="IconeCSS3"
+                                />
+                                <span class="px-3 fw-bold">Adobe</span>
+                                <div class="progress w-100 mt-1">
+                                    <div
+                                        class="progress-bar"
+                                        style="width: 100%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3" data-bs-toggle="tooltip"  title="Design"
+                            >
+                                <img
+                                    src="./img/palette-solid.svg"
+                                    alt="IconeJS"
+                                />
+                                <span class="px-3 fw-bold">Design</span>
+                                <div class="progress w-100 mt-1">
+                                    <div
+                                        class="progress-bar"
+                                        style="width: 75%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3" data-bs-toggle="tooltip"  title="UX"
+                            >
+                                <img
+                                    src="./img/vial-solid.svg"
+                                    alt="IconePHP"
+                                />
+                                <span class="px-3 fw-bold">UX</span>
+                                <div class="progress w-100 mt-1">
+                                    <div
+                                        class="progress-bar"
+                                        style="width: 75%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3" data-bs-toggle="tooltip"  title="Video"
+                            >
+                                <img
+                                    src="./img/video-solid.svg"
+                                    alt="IconeSASS"
+                                />
+                                <span class="px-3 fw-bold">Video</span>
+                                <div class="progress w-100 mt-1">
+                                    <div
+                                        class="progress-bar"
+                                        style="width: 50%"
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <!-- skills css3 -->
-              <div
-                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3"
-              >
-                <img src="./img/css3-alt.svg" alt="IconeCSS3" />
-                <span class="px-3 fw-bold">HTML5</span>
-                <div class="progress w-100 mt-1">
-                  <div class="progress-bar" style="width: 100%"></div>
-                </div>
-              </div>
-              <div
-                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3"
-              >
-                <img src="votreDossier/img/js.svg" alt="IconeJS" />
-                <span class="px-3 fw-bold">HTML5</span>
-                <div class="progress w-100 mt-1">
-                  <div class="progress-bar" style="width: 75%"></div>
-                </div>
-              </div>
-              <div
-                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3"
-              >
-                <img src="./img/php.svg" alt="IconePHP" />
-                <span class="px-3 fw-bold">HTML5</span>
-                <div class="progress w-100 mt-1">
-                  <div class="progress-bar" style="width: 75%"></div>
-                </div>
-              </div>
-              <div
-                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3"
-              >
-                <img src="./img/sass.svg" alt="IconeSASS" />
-                <span class="px-3 fw-bold">HTML5</span>
-                <div class="progress w-100 mt-1">
-                  <div class="progress-bar" style="width: 50%"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 offset-sm-1 gx-0">
-              <img
-                src="./img/code.jpg"
-                alt="ImageCode"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="row gy-4 align-items-center">
-            <div class="col-sm-4 gx-0">
-              <img
-                src="./img/design.jpg"
-                alt="DesignNumerique"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-sm-7 offset-sm-1">
-              <div
-                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3"
-              >
-                <img src="./img/figma.svg" alt="iconeHTML5" />
-                <span class="px-3 fw-bold">HTML5</span>
-                <div class="progress w-100 mt-1">
-                  <div class="progress-bar" style="width: 75%"></div>
-                </div>
-              </div>
-              <!-- skills 2ème partie  -->
-              <div
-                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3"
-              >
-                <img
-                  src="./img/photo-film-solid.svg"
-                  alt="IconeCSS3"
-                />
-                <span class="px-3 fw-bold">HTML5</span>
-                <div class="progress w-100 mt-1">
-                  <div class="progress-bar" style="width: 100%"></div>
-                </div>
-              </div>
-              <div
-                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3"
-              >
-                <img src="./img/palette-solid.svg" alt="IconeJS" />
-                <span class="px-3 fw-bold">HTML5</span>
-                <div class="progress w-100 mt-1">
-                  <div class="progress-bar" style="width: 75%"></div>
-                </div>
-              </div>
-              <div
-                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3"
-              >
-                <img src="./img/vial-solid.svg" alt="IconePHP" />
-                <span class="px-3 fw-bold">HTML5</span>
-                <div class="progress w-100 mt-1">
-                  <div class="progress-bar" style="width: 75%"></div>
-                </div>
-              </div>
-              <div
-                class="rounded shadow-sm p-3 bg-white d-flex .d-flex-nowrap my-3"
-              >
-                <img src="./img/video-solid.svg" alt="IconeSASS" />
-                <span class="px-3 fw-bold">HTML5</span>
-                <div class="progress w-100 mt-1">
-                  <div class="progress-bar" style="width: 50%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            </section>
 
-      <section class="py-5">
-        <div class="container" id="portfolio">
-          <div class="row gy-4 mt-4">
-            <div class="col">
-              <h2>Mon PortFolio</h2>
-              <h3>Projets perso et pro</h3>
-            </div>
-          </div>
-          <div class="row gy-4 mt-4 ">
-            <div class="col-sm border g-0 mx-2">
-              <img
-                src="./img/neom-AdkJ-LgpTrE-unsplash.jpg"
-                alt="PhotoProjet1"
-                class="w-100"
-              />
-              <h4 class="mx-3 my-2">Projet 1</h4>
-              <p class="mx-3 my-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores soluta sapiente omnis itaque officia similique?
-              </p>
-              <button class="btn btn-primary mx-3 my-2 ">En savoir plus</button>
-            </div>
-            <div class="col-sm border g-0 mx-2">
-              <img
-                src="./img/neom-FXJf8y_cZA0-unsplash.jpg"
-                alt="PhotoProjet1"
-                class="w-100"
-              />
-              <h4 class="mx-3 my-2">Projet 2</h4>
-              <p class="mx-3 my-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores soluta sapiente omnis itaque officia similique?
-              </p>
-              <button class="btn btn-primary mx-3 my-2">En savoir plus</button>
-            </div>
-            <div class="col-sm border g-0 mx-2">
-              <img
-                src="./img/neom-tuEtpjghVmg-unsplash.jpg"
-                alt="PhotoProjet1"
-                class="w-100"
-              />
-              <h4 class="mx-3 my-2">Projet 3</h4>
-              <p class="mx-3 my-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores soluta sapiente omnis itaque officia similique?
-              </p>
-              <button class="btn btn-primary mx-3 my-2">En savoir plus</button>
-            </div>
-            <div class="col-sm border g-0 mx-2">
-              <img
-                src="./img/neom-epQdtCvBrc4-unsplash.jpg"
-                alt="PhotoProjet1"
-                class="w-100"
-              />
-              <h4 class="mx-3 my-2">Projet 4</h4>
-              <p class="mx-3 my-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores soluta sapiente omnis itaque officia similique?
-              </p>
-              <button class="btn btn-primary mx-3 my-2">En savoir plus</button>
-            </div>
-          </div>
-         
-        </div>
-      </section>
-
-      <section class="py-5 bg-light">
-        <div class="container" id="contact">
-          <h2>Un projet de création web ?</h2>
-          <h3>Allons en discuter autour d'un café</h3>
-
-          <div class="row gy-4 mt-5">
-            <div class="col-sm-5">
-              <img
-                src="./img/grab-a-coffee.jpg"
-                alt="Image d'une tasse de café"
-                width="100%"
-              />
-            </div>
-
-            <div class="col-sm-6 offset-sm-1">
-              <form class="row g-3">
-                <div class="col-md-6">
-                  <label for="firstname" class="form-label">Prénom</label>
-                  <input type="text" class="form-control" id="firstname">
+            <section class="py-5">
+                <div class="container" id="portfolio">
+                    <div class="row gy-4 mt-4">
+                        <div class="col">
+                            <h2>Mon PortFolio</h2>
+                            <h3>Projets perso et pro</h3>
+                        </div>
+                    </div>
+                    <div class="row gy-4 mt-4">
+                        <div class="col-sm border g-0 mx-2">
+                            <img
+                                src="./img/neom-AdkJ-LgpTrE-unsplash.jpg"
+                                alt="PhotoProjet1"
+                                class="w-100"
+                            />
+                            <h4 class="mx-3 my-2">Projet 1</h4>
+                            <p class="mx-3 my-2">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Asperiores soluta sapiente
+                                omnis itaque officia similique?
+                            </p>
+                            <button
+                                class="btn btn-primary mx-3 my-2"
+                                data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasBottom1"
+                                aria-controls="offcanvasBottom"
+                            >
+                                En savoir plus
+                            </button>
+                            <!-- offcanvas1 -->
+                            <div
+                                class="offcanvas offcanvas-bottom h-100"
+                                tabindex="-1"
+                                id="offcanvasBottom1"
+                                aria-labelledby="offcanvasBottomLabel"
+                            >
+                                <div class="offcanvas-header">
+                                    <h5
+                                        class="offcanvas-title"
+                                        id="offcanvasBottomLabel"
+                                    >
+                                        Projet 1
+                                    </h5>
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="offcanvas"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="offcanvas-body small">
+                                    <div
+                                        id="carouselExampleCaptions1"
+                                        class="carousel slide h-100"
+                                    >
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img
+                                                    src=" https://picsum.photos/1920/1080?random=32 "
+                                                    class="d-block w-100"
+                                                    data-bs-interval="3000"
+                                                    alt="..."
+                                                />
+                                                <div
+                                                    class="carousel-caption d-none d-md-block"
+                                                >
+                                                    <h5>First slide label</h5>
+                                                    <p>
+                                                        Some representative
+                                                        placeholder content for
+                                                        the first slide.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img
+                                                    src=" https://picsum.photos/1920/1080?random=29"
+                                                    class="d-block w-100"
+                                                    data-bs-interval="3000"
+                                                    alt="..."
+                                                />
+                                                <div
+                                                    class="carousel-caption d-none d-md-block"
+                                                >
+                                                    <h5>Second slide label</h5>
+                                                    <p>
+                                                        Some representative
+                                                        placeholder content for
+                                                        the second slide.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img
+                                                    src=" https://picsum.photos/1920/1080?random=77 "
+                                                    class="d-block w-100"
+                                                    data-bs-interval="3000"
+                                                    alt="..."
+                                                />
+                                                <div
+                                                    class="carousel-caption d-none d-md-block"
+                                                >
+                                                    <h5>Third slide label</h5>
+                                                    <p>
+                                                        Some representative
+                                                        placeholder content for
+                                                        the third slide.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button
+                                            class="carousel-control-prev"
+                                            type="button"
+                                            data-bs-target="#carouselExampleCaptions1"
+                                            data-bs-slide="prev"
+                                        >
+                                            <span
+                                                class="carousel-control-prev-icon"
+                                                aria-hidden="true"
+                                            ></span>
+                                            <span class="visually-hidden"
+                                                >Previous</span
+                                            >
+                                        </button>
+                                        <button
+                                            class="carousel-control-next"
+                                            type="button"
+                                            data-bs-target="#carouselExampleCaptions1"
+                                            data-bs-slide="next"
+                                        >
+                                            <span
+                                                class="carousel-control-next-icon"
+                                                aria-hidden="true"
+                                            ></span>
+                                            <span class="visually-hidden"
+                                                >Next</span
+                                            >
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm border g-0 mx-2">
+                            <img
+                                src="./img/neom-FXJf8y_cZA0-unsplash.jpg"
+                                alt="PhotoProjet1"
+                                class="w-100"
+                            />
+                            <h4 class="mx-3 my-2">Projet 2</h4>
+                            <p class="mx-3 my-2">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Asperiores soluta sapiente
+                                omnis itaque officia similique?
+                            </p>
+                            <button
+                                class="btn btn-primary mx-3 my-2"
+                                data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasBottom2"
+                                aria-controls="offcanvasBottom"
+                            >
+                                En savoir plus
+                            </button>
+                            <!-- canvas2  -->
+                            <div
+                                class="offcanvas offcanvas-bottom h-100"
+                                tabindex="-1"
+                                id="offcanvasBottom2"
+                                aria-labelledby="offcanvasBottomLabel"
+                            >
+                                <div class="offcanvas-header">
+                                    <h5
+                                        class="offcanvas-title"
+                                        id="offcanvasBottomLabel"
+                                    >
+                                        Projet 2
+                                    </h5>
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="offcanvas"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="offcanvas-body small">
+                                    <div
+                                        id="carouselExampleCaptions2"
+                                        class="carousel slide h-100"
+                                    >
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img
+                                                    src=" https://picsum.photos/1920/1080?random=65 "
+                                                    class="d-block w-100"
+                                                    data-bs-interval="3000"
+                                                    alt="..."
+                                                />
+                                                <div
+                                                    class="carousel-caption d-none d-md-block"
+                                                >
+                                                    <h5>First slide label</h5>
+                                                    <p>
+                                                        Some representative
+                                                        placeholder content for
+                                                        the first slide.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img
+                                                    src=" https://picsum.photos/1920/1080?random=31"
+                                                    class="d-block w-100"
+                                                    data-bs-interval="3000"
+                                                    alt="..."
+                                                />
+                                                <div
+                                                    class="carousel-caption d-none d-md-block"
+                                                >
+                                                    <h5>Second slide label</h5>
+                                                    <p>
+                                                        Some representative
+                                                        placeholder content for
+                                                        the second slide.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img
+                                                    src=" https://picsum.photos/1920/1080?random=81 "
+                                                    class="d-block w-100"
+                                                    data-bs-interval="3000"
+                                                    alt="..."
+                                                />
+                                                <div
+                                                    class="carousel-caption d-none d-md-block"
+                                                >
+                                                    <h5>Third slide label</h5>
+                                                    <p>
+                                                        Some representative
+                                                        placeholder content for
+                                                        the third slide.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button
+                                            class="carousel-control-prev"
+                                            type="button"
+                                            data-bs-target="#carouselExampleCaptions2"
+                                            data-bs-slide="prev"
+                                        >
+                                            <span
+                                                class="carousel-control-prev-icon"
+                                                aria-hidden="true"
+                                            ></span>
+                                            <span class="visually-hidden"
+                                                >Previous</span
+                                            >
+                                        </button>
+                                        <button
+                                            class="carousel-control-next"
+                                            type="button"
+                                            data-bs-target="#carouselExampleCaptions2"
+                                            data-bs-slide="next"
+                                        >
+                                            <span
+                                                class="carousel-control-next-icon"
+                                                aria-hidden="true"
+                                            ></span>
+                                            <span class="visually-hidden"
+                                                >Next</span
+                                            >
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm border g-0 mx-2">
+                            <img
+                                src="./img/neom-tuEtpjghVmg-unsplash.jpg"
+                                alt="PhotoProjet1"
+                                class="w-100"
+                            />
+                            <h4 class="mx-3 my-2">Projet 3</h4>
+                            <p class="mx-3 my-2">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Asperiores soluta sapiente
+                                omnis itaque officia similique?
+                            </p>
+                            <button
+                                class="btn btn-primary mx-3 my-2"
+                                data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasBottom3"
+                                aria-controls="offcanvasBottom"
+                            >
+                                En savoir plus
+                            </button>
+                            <div
+                                class="offcanvas offcanvas-bottom h-100"
+                                tabindex="-1"
+                                id="offcanvasBottom3"
+                                aria-labelledby="offcanvasBottomLabel"
+                            >
+                                <div class="offcanvas-header">
+                                    <h5
+                                        class="offcanvas-title"
+                                        id="offcanvasBottomLabel"
+                                    >
+                                        Projet 3
+                                    </h5>
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="offcanvas"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="offcanvas-body small">
+                                    <div
+                                        id="carouselExampleCaptions3"
+                                        class="carousel slide h-100"
+                                    >
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img
+                                                    src=" https://picsum.photos/1920/1080?random=18 "
+                                                    class="d-block w-100"
+                                                    data-bs-interval="3000"
+                                                    alt="..."
+                                                />
+                                                <div
+                                                    class="carousel-caption d-none d-md-block"
+                                                >
+                                                    <h5>First slide label</h5>
+                                                    <p>
+                                                        Some representative
+                                                        placeholder content for
+                                                        the first slide.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img
+                                                    src=" https://picsum.photos/1920/1080?random=34"
+                                                    class="d-block w-100"
+                                                    data-bs-interval="3000"
+                                                    alt="..."
+                                                />
+                                                <div
+                                                    class="carousel-caption d-none d-md-block"
+                                                >
+                                                    <h5>Second slide label</h5>
+                                                    <p>
+                                                        Some representative
+                                                        placeholder content for
+                                                        the second slide.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img
+                                                    src=" https://picsum.photos/1920/1080?random=11 "
+                                                    class="d-block w-100"
+                                                    data-bs-interval="3000"
+                                                    alt="..."
+                                                />
+                                                <div
+                                                    class="carousel-caption d-none d-md-block"
+                                                >
+                                                    <h5>Third slide label</h5>
+                                                    <p>
+                                                        Some representative
+                                                        placeholder content for
+                                                        the third slide.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button
+                                            class="carousel-control-prev"
+                                            type="button"
+                                            data-bs-target="#carouselExampleCaptions3"
+                                            data-bs-slide="prev"
+                                        >
+                                            <span
+                                                class="carousel-control-prev-icon"
+                                                aria-hidden="true"
+                                            ></span>
+                                            <span class="visually-hidden"
+                                                >Previous</span
+                                            >
+                                        </button>
+                                        <button
+                                            class="carousel-control-next"
+                                            type="button"
+                                            data-bs-target="#carouselExampleCaptions3"
+                                            data-bs-slide="next"
+                                        >
+                                            <span
+                                                class="carousel-control-next-icon"
+                                                aria-hidden="true"
+                                            ></span>
+                                            <span class="visually-hidden"
+                                                >Next</span
+                                            >
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm border g-0 mx-2">
+                            <img
+                                src="./img/neom-epQdtCvBrc4-unsplash.jpg"
+                                alt="PhotoProjet1"
+                                class="w-100"
+                            />
+                            <h4 class="mx-3 my-2">Projet 4</h4>
+                            <p class="mx-3 my-2">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Asperiores soluta sapiente
+                                omnis itaque officia similique?
+                            </p>
+                            <button
+                                class="btn btn-primary mx-3 my-2"
+                                data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasBottom4"
+                                aria-controls="offcanvasBottom"
+                            >
+                                En savoir plus
+                            </button>
+                            <!-- offcanvas 4 -->
+                            <div
+                                class="offcanvas offcanvas-bottom h-100"
+                                tabindex="-1"
+                                id="offcanvasBottom4"
+                                aria-labelledby="offcanvasBottomLabel"
+                            >
+                                <div class="offcanvas-header">
+                                    <h5
+                                        class="offcanvas-title"
+                                        id="offcanvasBottomLabel"
+                                    >
+                                        Projet 4
+                                    </h5>
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="offcanvas"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="offcanvas-body small">
+                                    <div
+                                        id="carouselExampleCaptions4"
+                                        class="carousel slide h-100"
+                                    >
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img
+                                                    src=" https://picsum.photos/1920/1080?random=12 "
+                                                    class="d-block w-100"
+                                                    data-bs-interval="3000"
+                                                    alt="..."
+                                                />
+                                                <div
+                                                    class="carousel-caption d-none d-md-block"
+                                                >
+                                                    <h5>First slide label</h5>
+                                                    <p>
+                                                        Some representative
+                                                        placeholder content for
+                                                        the first slide.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img
+                                                    src=" https://picsum.photos/1920/1080?random=25"
+                                                    class="d-block w-100"
+                                                    data-bs-interval="3000"
+                                                    alt="..."
+                                                />
+                                                <div
+                                                    class="carousel-caption d-none d-md-block"
+                                                >
+                                                    <h5>Second slide label</h5>
+                                                    <p>
+                                                        Some representative
+                                                        placeholder content for
+                                                        the second slide.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img
+                                                    src=" https://picsum.photos/1920/1080?random=75 "
+                                                    class="d-block w-100"
+                                                    data-bs-interval="3000"
+                                                    alt="..."
+                                                />
+                                                <div
+                                                    class="carousel-caption d-none d-md-block"
+                                                >
+                                                    <h5>Third slide label</h5>
+                                                    <p>
+                                                        Some representative
+                                                        placeholder content for
+                                                        the third slide.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button
+                                            class="carousel-control-prev"
+                                            type="button"
+                                            data-bs-target="#carouselExampleCaptions4"
+                                            data-bs-slide="prev"
+                                        >
+                                            <span
+                                                class="carousel-control-prev-icon"
+                                                aria-hidden="true"
+                                            ></span>
+                                            <span class="visually-hidden"
+                                                >Previous</span
+                                            >
+                                        </button>
+                                        <button
+                                            class="carousel-control-next"
+                                            type="button"
+                                            data-bs-target="#carouselExampleCaptions4"
+                                            data-bs-slide="next"
+                                        >
+                                            <span
+                                                class="carousel-control-next-icon"
+                                                aria-hidden="true"
+                                            ></span>
+                                            <span class="visually-hidden"
+                                                >Next</span
+                                            >
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                  <label for="name" class="form-label">Nom</label>
-                  <input type="text" class="form-control" id="name">
+            </section>
+
+            <section class="py-5 bg-light">
+                <div class="container" id="contact">
+                    <h2>Un projet de création web ?</h2>
+                    <h3>Allons en discuter autour d'un café</h3>
+
+                    <div class="row gy-4 mt-5">
+                        <div class="col-md-5">
+                            <img
+                                src="./img/grab-a-coffee.jpg"
+                                alt="Image d'une tasse de café"
+                                width="100%"
+                            />
+                        </div>
+
+                        <div class="col-12 offset-md-1 col-md-6">
+                            <form class="row gy-3">
+                                <div class="col-md-6">
+                                    <label for="firstname" class="form-label"
+                                        >Prénom</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="firstname"
+                                    />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label"
+                                        >Nom</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="name"
+                                    />
+                                </div>
+                                <div class="col-12">
+                                    <label for="mail" class="form-label"
+                                        >Email address</label
+                                    >
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="mail"
+                                    />
+                                </div>
+                                <div class="col-12">
+                                    <label for="textarea" class="form-label"
+                                        >Message</label
+                                    >
+                                    <textarea
+                                        class="form-control"
+                                        id="textarea"
+                                    ></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        type="submit"
+                                        class="btn btn-primary w-100"
+                                    >
+                                        Envoyer
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12">
-                  <label for="mail" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="mail" >
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div
+                    class="row py-5 justify-content-between align-items-center"
+                >
+                    <div
+                        class="col-12 col-sm-2 d-inline-flex justify-content-center justify-content-sm-start"
+                    >
+                        <span
+                            class="badge bg-primary text-white text-uppercase fs-5"
+                            >John</span
+                        >
+                        <span class="text-uppercase fs-5 fw-bold">Doe</span>
+                    </div>
+                    <div
+                        class="col-12 col-sm-2 g-0 d-flex justify-content-center align-middle"
+                    >
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-decoration-none text-dark"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#Modal"
+                                    >Mentions légales</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="col-12 col-sm-2 g-0 d-flex justify-content-center justify-content-sm-end"
+                    >
+                        <img
+                            src="./img/linkedin.svg"
+                            alt="logoLinkedin"
+                            class="me-3" data-bs-toggle="tooltip"  title="Linkedin"
+                        />
+                        <img src="./img/instagram.svg" alt="logoInsta" data-bs-toggle="tooltip"  title="Insta"/>
+                        <img
+                            src="./img/twitter.svg"
+                            alt="logoTwitter"
+                            class="ms-3"
+                            data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"
+                        />
+                    </div>
                 </div>
-                <div class="col-12">
-                  <label for="textarea" class="form-label">Message</label>
-                  <textarea class="form-control"  id="textarea"></textarea>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary w-100">Envoyer</button>
-                </div>
-              </form>
             </div>
-          </div>
-        </div>
-      </section>
-    </main>
+            <div class="modal" tabindex="-1" id="Modal">
+                <div class="modal-dialog modal-dialog-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Mentions légales</h5>
+                            <button
+                                type="button"
+                                id="Modal"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus non autem facere aspernatur, similique earum, excepturi nesciunt et suscipit unde quaerat rem doloribus error veritatis odio id totam laboriosam explicabo quam, sed adipisci reiciendis. Consequuntur ab voluptate illo odio iste minus vitae nemo reiciendis fugiat, reprehenderit minima architecto odit? Nulla earum eum numquam dolorum ducimus. At, eligendi sapiente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-    <footer>
-      <div class="container" >
-        <div class="row py-5 justify-content-between align-items-center ">
-          <div class="col-12 col-sm-2 d-inline-flex justify-content-center justify-content-sm-start ">
-            <span class="badge bg-primary text-white text-uppercase  fs-5"
-            >John</span
-          >
-          <span class="text-uppercase fs-5 fw-bold">Doe</span>
-          </div>
-          <div class="col-12 col-sm-2 g-0  d-flex justify-content-center align-middle ">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#" class="text-decoration-none text-dark">Mentions légales</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 col-sm-2 g-0 d-flex justify-content-center justify-content-sm-end ">
-            <img src="./img/linkedin.svg" alt="logoLinkedin" class="me-3"><img src="./img/instagram.svg" alt="logoInsta"><img src="./img/twitter.svg" alt="logoTwitter" class="ms-3">
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Bootstrap JS bundle → -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <!-- Bootstrap JS bundle → -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+        <script>    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})</script>
+    </body>
 </html>

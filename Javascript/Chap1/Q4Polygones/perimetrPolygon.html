@@ -6,8 +6,10 @@
     <title>Calcul du périmètre d'un polygône</title>
   </head>
   <body>
+
+   
     <script>
-        "use strict"
+      "use strict";
       function calculPerimetrPolygone() {
         let choix;
         if (arguments.length > 3) {
@@ -16,42 +18,45 @@
           choix = arguments.length;
         }
 
-        let perimetre= 0;
+        let perimetre = 0;
         switch (choix) {
           case 0:
-            console.log(
+            alert(
               "Erreur: il faut au moins une longueur pour définir une forme. "
             );
             break;
 
           case 1:
             perimetre = arguments[0] * 4;
-            console.log("Le périmètre de ce carré vaut: " + perimetre);
+            alert("Le périmètre de ce carré vaut: " + perimetre);
             break;
 
           case 2:
             perimetre = (arguments[0] + arguments[1]) * 2;
-            console.log("Le périmètre de ce rectangle vaut: " + perimetre);
+            alert("Le périmètre de ce rectangle vaut: " + perimetre);
             break;
 
           case 3:
-            perimetre= arguments[0] + arguments[1] + arguments[2];
-            console.log('le prérimètre de ce triangle vaut: '+ perimetre);
+            perimetre = arguments[0] + arguments[1] + arguments[2];
+            alert("le prérimètre de ce triangle vaut: " + perimetre);
             break;
 
           case 4:
             for (let i = 0; i < arguments.length; i++) {
               perimetre += arguments[i];
             }
-            console.log("le périmètre de ce polygône vaut: " + perimetre);
+            alert("le périmètre de ce polygône vaut: " + perimetre);
             break;
 
           default:
-            console.log("Désolé mais la réponse ne rentre pas dans les cases");
+           alert("Désolé mais la réponse ne rentre pas dans les cases");
         }
       }
 
-      calculPerimetrPolygone(45);
+      
+      calculPerimetrPolygone();
+
+
     </script>
   </body>
 </html>
